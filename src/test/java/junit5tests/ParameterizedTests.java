@@ -33,7 +33,7 @@ public class ParameterizedTests {
     @ValueSource(ints = {1,5,6})
     void validation(int param){
         if (param == 1) {
-            System.out.println("Test Correcto");
+            System.out.println("Test Correct");
         } else {
             System.out.println("Test fallido");
         }
