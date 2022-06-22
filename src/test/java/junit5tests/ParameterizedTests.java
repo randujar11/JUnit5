@@ -77,13 +77,13 @@ public class ParameterizedTests {
         System.out.println("param1 = " + param1);
     }
 
+
+
     @ParameterizedTest
     @MethodSource(value = "sourceList_StringDouble")
     void methodSource_StringDoubleList(String param1, double param2){
         System.out.println("param1 = " + param1 + ", param2 = " + param2);
     }
-
-
     List<String> sourceString() {
         return Arrays.asList("Tomate","Pepino","Lolito");
     }
